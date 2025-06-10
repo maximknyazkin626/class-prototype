@@ -1,0 +1,27 @@
+{
+  "name": "class-prototype",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage --passWithNoTests",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximknyazkin626/class-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximknyazkin626/class-prototype/issues"
+  },
+  "homepage": "https://github.com/maximknyazkin626/class-prototype#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "eslint-plugin-react": "^7.37.5",
+    "jest": "^30.0.0",
+    "typescript-eslint": "^8.34.0"
+  }
+}
