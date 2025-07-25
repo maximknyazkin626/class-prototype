@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest --coverage --passWithNoTests",
+    "test": "jest",
     "lint": "eslint"
   },
   "repository": {
@@ -19,9 +19,17 @@
   "homepage": "https://github.com/maximknyazkin626/class-prototype#readme",
   "description": "",
   "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
     "eslint": "^9.28.0",
     "eslint-plugin-react": "^7.37.5",
-    "jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "typescript": "^5.8.3",
     "typescript-eslint": "^8.34.0"
+  },
+  "dependencies": {
+    "core-js": "^3.44.0"
   }
 }
